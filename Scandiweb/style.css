@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin: 0 20px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.add{
+    margin-right: 12px;
+    height: 30px;
+    width: 50px;
+    border-radius: 3px;
+    border-color: green;
+    background-color: white;
+    font-weight: 600;
+    color: green;
+}
+
+.delete{
+    height: 30px;
+    width: 110px;
+    border-radius: 3px;
+    border-color: red;
+    border: 2px solid;
+    background-color: white;
+    font-weight: 600;
+    color: red;
+}
+
+.cancel{
+    height: 30px;
+    width: 70px;
+    border-radius: 3px;
+    border-color: red;
+    border: 2px solid;
+    background-color: white;
+    font-weight: 600;
+    color: red;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 200px;
+    padding: 30px;
+    border: 1px solid black;
+    margin: 24px;
+    border-radius: 5px;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.delete-checkbox{
+    cursor: pointer;
+}
+
+.card-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    text-align: center;
+}
+
+.add:hover{
+    background-color: rgb(206, 249, 206);
+}
+
+.delete:hover, .cancel:hover{
+    background-color: rgb(255, 242, 242);
+}
+
+.add-link:link, .add-link:visited {
+    height: 30px;
+    width: 50px;
+    color: green;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.cancel-link:link, .cancel-link:visited {
+    color: red;
+    text-align: center;
+    text-decoration: none;
+  }
+/* ADD Product Style */
+
+.input-fields{
+    display: flex;
+    padding: 12px;
+    align-items: center;
+}
+
+.dynamic-form{
+    display: none;
+}
+
+.description{
+    padding: 12px;
+}
+
+.save{
+    margin-right: 12px;
+    height: 30px;
+    width: 50px;
+    border-radius: 3px;
+    border: 2px solid;
+    border-color: blue;
+    background-color: white;
+    font-weight: 600;
+    color: blue;
+    cursor: pointer;
+}
+
+.save:hover{
+    background-color: rgb(218, 248, 255);
+}
+
+label{
+    padding-right: 21px
+}
+
+input{
+    height: 27px;
+    border-radius: 3px;
+    border: 1px solid;
+}
+
+.select{
+    height: 27px;
+    border-radius: 3px;
+    border: 1px solid;
+}
+
+.form{
+    height: 500px;
+}
+
+.data{
+    display: flex;
+}
+
+.validation-message{
+    display: none;
+    color: red;
+    padding-left: 10px;
+}
+
+
+
+
